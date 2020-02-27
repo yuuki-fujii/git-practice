@@ -8,7 +8,7 @@ package com.example;
  */
 public class Car {
 	private int speed;
-	private String name;
+	private String nameOfCar;
 	private String bodyColor;
 	public int getSpeed() {
 		return speed;
@@ -16,11 +16,11 @@ public class Car {
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
-	public String getName() {
-		return name;
+	public String getNameOfCar() {
+		return nameOfCar;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setNameOfCar(String nameOfCar) {
+		this.nameOfCar = nameOfCar;
 	}
 	public String getBodyColor() {
 		return bodyColor;
@@ -30,7 +30,8 @@ public class Car {
 	}
 	@Override
 	public String toString() {
-		return "Car [speed=" + speed + ", name=" + name + ", bodyColor=" + bodyColor + "]";
+		return "Car [speed=" + speed + ", nameOfCar=" + nameOfCar + ", bodyColor=" + bodyColor + "]";
 	}
+	
 	
 }
