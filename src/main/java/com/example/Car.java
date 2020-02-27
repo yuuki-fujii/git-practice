@@ -8,11 +8,7 @@ package com.example;
  */
 public class Car {
 	private int speed;
-<<<<<<< HEAD
 	private String carName;
-=======
-	private String nameOfCar;
->>>>>>> feature/login
 	private String bodyColor;
 	public int getSpeed() {
 		return speed;
@@ -20,20 +16,13 @@ public class Car {
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
-<<<<<<< HEAD
+
 	
 	public String getCarName() {
 		return carName;
 	}
 	public void setCarName(String carName) {
 		this.carName = carName;
-=======
-	public String getNameOfCar() {
-		return nameOfCar;
-	}
-	public void setNameOfCar(String nameOfCar) {
-		this.nameOfCar = nameOfCar;
->>>>>>> feature/login
 	}
 	public String getBodyColor() {
 		return bodyColor;
@@ -43,11 +32,7 @@ public class Car {
 	}
 	@Override
 	public String toString() {
-<<<<<<< HEAD
 		return "Car [speed=" + speed + ", carName=" + carName + ", bodyColor=" + bodyColor + "]";
-=======
-		return "Car [speed=" + speed + ", nameOfCar=" + nameOfCar + ", bodyColor=" + bodyColor + "]";
->>>>>>> feature/login
 	}
 	
 	
